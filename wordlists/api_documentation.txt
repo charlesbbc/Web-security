@@ -1,0 +1,5 @@
+/swagger/index.html
+/openapi.json
+/api
+/api/swagger/v1
+/api/swagger
