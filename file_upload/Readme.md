@@ -17,7 +17,7 @@ Content-Disposition: form-data; name="avatar"; filename="`%2e%2e%2f`shell.jgp.ph
 .php5, .shtml to evade blacklist use less known extensions
 
 ### Upload config file
-Refer to apache.md and IIS.md
+Refer to [apache.md](./apache_config_abuse.md) and [IIS.md](./IIS_config_abuse.md)
 May be able to trick the server into mapping an arbitrary, custom file extension to an executable MIME type.
 
 ### Polyglot web shell upload
