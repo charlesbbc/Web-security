@@ -1,3 +1,5 @@
+# Apache File Upload Configuration Abuse
+
 To allow Apache to execute PHP files requested by a client, developers may need to add the following directives to /etc/apache2/apache2.conf:
 
 `LoadModule php_module /usr/lib/apache2/modules/libphp.so
@@ -5,7 +7,7 @@ AddType application/x-httpd-php .php`
 
 Apache servers, for example, will load a directory-specific configuration from a file called .htaccess
 
-#Example
+## Example
 
 .htaccess 
 `AddType application/x-httpd-php .whatever`
