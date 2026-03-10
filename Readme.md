@@ -7,6 +7,9 @@ I would like to acknowledge the following developers and projects for their valu
 
 https://portswigger.net/web-security
 
+### PayloadBox - CVS Injection Wordlist
+
+https://github.com/payload-box/csv-injection-payload-list
 
 # Other Checks
 
