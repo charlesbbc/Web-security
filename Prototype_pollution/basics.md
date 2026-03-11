@@ -27,6 +27,8 @@ Object linked to another object, is its prototype. There are some built-in autom
 
 strings -> String.prototype
 
+![Image](/assets/img/prototype_of.png)
+
 String.prototype -> toLowerCase() method
 
 All strings have this method.
