@@ -54,7 +54,13 @@ The property is added to the global Object.prototype and the browser will log a 
 
 Needs burp browser.
 
+![](/assets/img/DOM_invader_1.png)
+
+![](/assets/img/DOM_invader_2.png)
+
 Scan for gadgets -> Exploit
+
+![](/assets/img/DOM_invader_3.png)
 
 **Manual Exploitation:**
 
