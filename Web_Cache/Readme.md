@@ -33,10 +33,10 @@ Responses that may indicate being cached:
 
 `X-Cache` header says if it was served from cache:
 
-* X-Cache: hit - served from cache
-* X-Cache: miss - not contain a response for the request's key. Most will cache, can send the request again and check if value updates to hit.
-* X-Cache: dynamic - generally means not cached
-* X-Cache: refresh - cached is outdated, needs refresh
+* `X-Cache: hit` - served from cache
+* `X-Cache: miss` - not contain a response for the request's key. Most will cache, can send the request again and check if value updates to hit.
+* `X-Cache: dynamic` - generally means not cached
+* `X-Cache: refresh` - cached is outdated, needs refresh
 
 `cache-control` header may include directive for caching like, `public` or `max-age > 0`. It only says it's cacheable, not necessarily.
 
