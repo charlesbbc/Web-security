@@ -18,7 +18,7 @@ Access-Control-Allow-Credentials: true
 
 `https://subdomain.vulnerable-website.com/?xss=<script>cors-stuff-here</script>`
 
-## Breaking TLS with poorly configured CORS
+## Breaking TLS with poorly configured CORS
 
 App with HTTPS whitelists a trusted subdomain that has HTTP
 
